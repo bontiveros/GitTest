@@ -1,2 +1,2 @@
 # GitTest
-Made for homework assignment for Advanced Software Engineering
+Made for Advanced Software Engineering homework assignment.
