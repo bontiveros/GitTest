@@ -1,5 +1,7 @@
 #code used to test Github
 #test2
+
+
 import csv
 import string
 
@@ -23,15 +25,15 @@ def check_word(word):
     global dict_words
     global sugg
     if word in dict_words:
-        c = True
+        u = True
     else:
         transpose_let(word)
         insert_let(word)
         insert_space(word)
         remove_let(word)
 
-        c = sugg
-    return c
+        u = sugg
+    return u
 
 def transpose_let(word):
     global dict_words
